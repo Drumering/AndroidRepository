@@ -24,22 +24,23 @@
         android:padding="20sp"
         android:layout_margin="10sp"
         android:hint="Enter the value to divide"/>
-    <EditText
-        android:id="@+id/peopleToDivide"
+
+    <SeekBar
+        android:id="@+id/seekPessoas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:min="2"
+        android:max="20"
+        android:progress="1" />
+
+    <TextView
+        android:id="@+id/textPessoas"
+        android:text="1"
         android:textAlignment="center"
-        android:padding="20sp"
-        android:layout_margin="10sp"
-        android:hint="Enter the amount of people to split"/>
-    <Button
-        android:onClick="expenseDivision"
-        android:layout_marginTop="20sp"
-        android:text="Divide"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
     <TextView
         android:id="@+id/valueForEachPerson"
         android:layout_width="match_parent"
