@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Average Calculator"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/pNota"
+        android:layout_margin="20sp"
+        android:layout_width="300sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Insira o valor da primeira nota"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/sNota"
+        android:layout_margin="20sp"
+        android:layout_width="300sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Insira o valor da segunda nota"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/tNota"
+        android:layout_margin="20sp"
+        android:layout_width="300sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Insira o valor da terceira nota"
+        android:textAlignment="center"/>
+    <CheckBox
+        android:id="@+id/ponderar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ponderar Nota?"/>
+    <TextView
+        android:id="@+id/conceito"
+        android:layout_margin="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Conceito"
+        android:textAlignment="center"
+        android:textSize="40sp"/>
+
+</LinearLayout>
