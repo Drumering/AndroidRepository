@@ -4,7 +4,7 @@ public class Dado {
     private int faces;
 
     public Dado(int faces){
-        faces = this.faces;
+        this.faces = faces;
     }
 
     public int getFaces() {

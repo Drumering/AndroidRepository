@@ -26,7 +26,7 @@
         android:id="@+id/seekDados"
         android:layout_margin="10sp"
         android:min="1"
-        android:max="10"
+        android:max="4"
         android:progress="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -62,7 +62,28 @@
         android:layout_height="wrap_content" />
 
     <TextView
+        android:layout_gravity="center"
+        android:id="@+id/dados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fazerJogada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fazer jogada"
+        android:layout_margin="20sp"
+        android:layout_gravity="center">
+    </Button>
+
+    <TextView
         android:id="@+id/resultDice"
+        android:hint="Resultado para a sua jogada"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="20sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
