@@ -4,7 +4,7 @@ public class Produto {
     private String nome;
     private String unidade;
     private int quantidade;
-    private boolean p;
+    private boolean p = false;
 
     public boolean isP() {
         return p;

@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(b){
                     p = true;
+                }else {
+                    p = false;
                 }
             }
         });
