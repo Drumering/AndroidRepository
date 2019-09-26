@@ -67,5 +67,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <TextView
+            app:changeColor="@{viewmodel.likes}"
+            android:id="@+id/textHype"
+            android:text="@{viewmodel.hype}"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 </layout>
