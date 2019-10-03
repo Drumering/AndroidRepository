@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">appJoselito</string>
+    <string name="editNomeHint">Nome do Produto.</string>
+    <string name="editQtdeHint">Quantidade.</string>
+    <string name="btnSalvarText">SALVAR</string>
+    <string name="btnNovoItemText">NOVO ITEM</string>
+</resources>
