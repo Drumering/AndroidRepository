@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_columnSpan="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textNomeColchao"
+            android:textSize="18dp"
+            android:text="Nome do colchao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textNomeFabricante"
+            android:textSize="18dp"
+            android:text="Nome do fabricante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textPreco"
+        android:textSize="18dp"
+        android:layout_columnSpan="2"
+        android:text="Preço do colchão"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:text="Nível da densidade"
+        android:textSize="18dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ProgressBar
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/custom_progress"
+        android:progress="30"
+        android:secondaryProgress="60"
+        style="@style/MyProgressBarTwo"
+        android:theme="@style/MyProgressBarTwo"
+        />
+
+
+</GridLayout>
